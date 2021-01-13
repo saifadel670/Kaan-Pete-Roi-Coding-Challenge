@@ -33,7 +33,7 @@ function downlaodCSVFIle(){
     var encodedUri = encodeURI(csvContent);
     var link = document.createElement("a");
     link.setAttribute("href", encodedUri);
-    link.setAttribute("download", "my_data.csv");
+    link.setAttribute("download", "Output_volunteer_attendance_data.csv");
     document.body.appendChild(link);
     link.click();
 }
